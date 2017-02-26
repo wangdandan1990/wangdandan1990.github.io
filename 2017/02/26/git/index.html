@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="1.git的使用1)什么是git
+为了告别手动方式管理Linux代码,并且符合开源和免费,Linus花了 两周时间 自己用 C 写了一个分布式版本控制系统，这就是GitGit迅速成为最流行的分布式版本控制系统，
+
+
+尤其是 2008 年 GitHub 网站上线了，它为开源项目 免费提供Git存储 ，">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="John Doe">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Dada的博客"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Dada的博客"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="website" />
+    
+
+    <!--Page Cover-->
+    
+
+        <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>Dada的博客</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+	
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Configurable Title</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Untitled</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        2017-02-26
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h3 id="1-git的使用"><a href="#1-git的使用" class="headerlink" title="1.git的使用"></a>1.git的使用</h3><h4 id="1-什么是git"><a href="#1-什么是git" class="headerlink" title="1)什么是git"></a>1)什么是git</h4><ul>
+<li>为了告别手动方式管理Linux代码,并且符合开源和免费,Linus花了 两周时间 自己用 C 写了一个分布式版本控制系统，这就是GitGit迅速成为最流行的分布式版本控制系统，</li>
+</ul>
+<ul>
+<li>尤其是 2008 年 GitHub 网站上线了，它为开源项目 免费提供Git存储 ，无数开源项目开始迁移至GitHub，包括jQuery，PHP，Ruby等等。</li>
+</ul>
+<h4 id="2-git-作用"><a href="#2-git-作用" class="headerlink" title="2)git 作用"></a>2)git 作用</h4><ul>
+<li>1.备份文件</li>
+<li>2.记录历史</li>
+<li>3.回到过去</li>
+<li>4.多端共享</li>
+<li>5.团队协作</li>
+</ul>
+<h4 id="3-使用git"><a href="#3-使用git" class="headerlink" title="3)使用git"></a>3)使用git</h4><p><strong>3.1 告诉git你是谁</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git config --global user.name wangdandan1990</div><div class="line">git cinfig --global user.email 18710095250@163.com</div><div class="line">只需要设置一次(没有设置则不能提交)</div></pre></td></tr></table></figure>
+<p><strong>3.2 查看配置</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git config --list</div></pre></td></tr></table></figure>
+<p><strong>3.3 创建文件</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mkdir(make directory) 文件名 -p可以循环创建</div></pre></td></tr></table></figure>
+<p><strong>3.4 删除目录</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rm -rf 文件夹</div></pre></td></tr></table></figure>
+<p><strong>3.5 查看目录下所有文件</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ls -al</div></pre></td></tr></table></figure>
+<p><strong>3.6版本控制(文件)</strong></p>
+<ul>
+<li>初始化使用git的位置</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git init (初始化)</div></pre></td></tr></table></figure>
+<p><strong>3.7 vi 编辑</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">vi 1.txt</div><div class="line">i 插入  变成编辑模式</div><div class="line">esc + :wq(保存+退出) 退出  命令模式</div><div class="line">esc + :q!(强制退出)</div></pre></td></tr></table></figure>
+<p><strong>3.8 查看文件内容</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cat 文件名</div></pre></td></tr></table></figure>
+<p><strong>3.9 将文件进行提交</strong></p>
+<ul>
+<li>将文件加入到暂存区中(不能直接提交到历史区</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git add .或者-A或者&lt;文件名&gt;</div></pre></td></tr></table></figure>
+<p><strong>3.10 提交到历史</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git log(日志)</div></pre></td></tr></table></figure>
+<p><strong>3.11 代码比较</strong></p>
+<ul>
+<li>工作区和暂存区</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git diff (不同different)</div></pre></td></tr></table></figure>
+<ul>
+<li>工作区和历史区</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git diff master</div></pre></td></tr></table></figure>
+<ul>
+<li>暂存区和历史区</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git diff --cached(暂存区)</div></pre></td></tr></table></figure>
+<h4 id="4-checkout"><a href="#4-checkout" class="headerlink" title="4)checkout"></a>4)checkout</h4><ul>
+<li>从暂存区拉回工作区</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git checkout 文件名</div></pre></td></tr></table></figure>
+<h4 id="5-取消本次add"><a href="#5-取消本次add" class="headerlink" title="5)取消本次add"></a>5)取消本次add</h4><ul>
+<li>将暂存区中的内容回到上次add的情况</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git reset HEAD &apos;文件名&apos;</div></pre></td></tr></table></figure>
+<h4 id="6-回到过去-amp-amp-回到未来"><a href="#6-回到过去-amp-amp-回到未来" class="headerlink" title="6)回到过去&amp;&amp;回到未来"></a>6)回到过去&amp;&amp;回到未来</h4><ul>
+<li>回到过去</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git log (获取commit_id)</div><div class="line">git reflog (记录着所有版本)</div><div class="line">git reset --hard  commit_id</div></pre></td></tr></table></figure>
+<h4 id="7-分支"><a href="#7-分支" class="headerlink" title="7)分支"></a>7)分支</h4><p><strong>7.1创建分支</strong></p>
+<ul>
+<li>会在当前状态下克隆一份一模一样的</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git branch dev</div></pre></td></tr></table></figure>
+<p><strong>7.2查看分支</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git branch</div></pre></td></tr></table></figure>
+<p><strong>7.3切换分支</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git checkout dev</div></pre></td></tr></table></figure>
+<p><strong>7.4删除分支</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git branch -D dev</div></pre></td></tr></table></figure>
+<p><strong>7.5合并分支</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git merge dev</div><div class="line"></div><div class="line">在mster上合并dev分支</div><div class="line">刚刚我们创建的分支和主干一模一样，在分支上改动了一下，很快的在主干上合并了，如果在改动分支的时候 主干也改动了（div&#123;background:red&#125;） 分支来了一段代码(div&#123;background:yellow&#125;),手动解决冲突</div></pre></td></tr></table></figure>
+<p><strong>7.6提交连写</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git commit -a -m &apos;commit&apos;</div></pre></td></tr></table></figure>
+<p><strong>7.7解决冲突</strong></p>
+<ul>
+<li>在文件内保留最后想留下的结果（去掉&gt;&gt;&gt;&gt;&gt;&lt;&lt;&lt;&lt;=====）</li>
+<li>提交最终的结果</li>
+</ul>
+<h4 id="8-发布到github上"><a href="#8-发布到github上" class="headerlink" title="8)发布到github上"></a>8)发布到github上</h4><ul>
+<li>如果线上有内容,先要将线上的拿下来,再次提交</li>
+<li>初始化空仓库</li>
+</ul>
+<p><strong>8.1origin</strong></p>
+<ul>
+<li>1创建readMe文件(可以不创建)</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &apos;#wecome&apos; &gt;&gt;READEME.md</div></pre></td></tr></table></figure>
+<ul>
+<li>2添加忽略文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">touch .gitignore</div><div class="line">.DS_Store</div><div class="line">.idea</div></pre></td></tr></table></figure>
+<ul>
+<li>3添加远程仓库</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git remote add origin https://github.com/zhufengzhufeng/201614nodetest.git</div></pre></td></tr></table></figure>
+<ul>
+<li>4删除远程仓库</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git remote rm 仓库</div></pre></td></tr></table></figure>
+<ul>
+<li>5推动到远程仓库</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git push origin master -u(upstream)</div></pre></td></tr></table></figure>
+<h4 id="9-部署静态的github页面"><a href="#9-部署静态的github页面" class="headerlink" title="9.部署静态的github页面"></a>9.部署静态的github页面</h4><ul>
+<li>先建一个仓库 static</li>
+<li>git init (初始化本地仓库)</li>
+<li>git checkout -b gh-pages (分支名不能更改)</li>
+<li>git add . (添加到暂存区)</li>
+<li>git commit -m”trans” (提交到历史区)</li>
+<li>git remote add origin 地址</li>
+<li>git push origin gh-pages</li>
+</ul>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2017 John Doe<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
