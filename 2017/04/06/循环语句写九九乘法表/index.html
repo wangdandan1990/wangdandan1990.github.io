@@ -10,6 +10,8 @@
 
     <!--Description-->
     
+        <meta name="description" content="循环语句写九九乘法表方法一:for循环1234567var oDiv=document.getElementById(&#39;div1&#39;);    for(var firstNum=1;firstNum&amp;lt;10;firstNum++)&amp;#123;        for(var secNum=1;sec">
+    
 
     <!--Author-->
     
@@ -40,7 +42,7 @@
 
     <!-- Title -->
     
-    <title>Archiv: 2017/4 - Dada&#39;s Blog</title>
+    <title>Dada&#39;s Blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -126,63 +128,61 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>2017/4</h1>
+                <div class="post-heading">
+                    <h1>Untitled</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        2017-04-06
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/2017/04/06/循环语句写九九乘法表/">
-        <h1 class="post-title archive">
-            Untitled
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2017-04-06
-    </p>
-</div>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h4 id="循环语句写九九乘法表"><a href="#循环语句写九九乘法表" class="headerlink" title="循环语句写九九乘法表"></a>循环语句写九九乘法表</h4><h5 id="方法一-for循环"><a href="#方法一-for循环" class="headerlink" title="方法一:for循环"></a>方法一:for循环</h5><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> oDiv=<span class="built_in">document</span>.getElementById(<span class="string">'div1'</span>);</div><div class="line">    <span class="keyword">for</span>(<span class="keyword">var</span> firstNum=<span class="number">1</span>;firstNum&lt;<span class="number">10</span>;firstNum++)&#123;</div><div class="line">        <span class="keyword">for</span>(<span class="keyword">var</span> secNum=<span class="number">1</span>;secNum&lt;=firstNum;secNum++)&#123;</div><div class="line">            oDiv.innerHTML+=firstNum+<span class="string">'*'</span>+secNum+<span class="string">'='</span>+firstNum*secNum+<span class="string">'&amp;nbsp;&amp;nbsp;&amp;nbsp;'</span></div><div class="line">        &#125;</div><div class="line">        oDiv.innerHTML+=<span class="string">'&lt;br/&gt;'</span>;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+<p>方法二:while循环</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> oDiv=<span class="built_in">document</span>.getElementById(<span class="string">'div1'</span>);</div><div class="line"><span class="keyword">var</span> firstNum=<span class="number">1</span>;</div><div class="line">    <span class="keyword">while</span>(firstNum&lt;<span class="number">10</span>)&#123;</div><div class="line">        <span class="keyword">var</span> secNum=<span class="number">1</span>;</div><div class="line">        <span class="keyword">while</span>(secNum&lt;=firstNum)&#123;</div><div class="line">            oDiv.innerHTML+=firstNum+<span class="string">'*'</span>+secNum+<span class="string">'='</span>+firstNum*secNum+<span class="string">'&amp;nbsp;&amp;nbsp;&amp;nbsp;'</span>;</div><div class="line">            secNum++</div><div class="line">        &#125;</div><div class="line">        oDiv.innerHTML+=<span class="string">'&lt;br/&gt;'</span>;</div><div class="line">        firstNum++;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+<p>方法三: do while循环</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> oDiv=<span class="built_in">document</span>.getElementById(<span class="string">'div1'</span>);</div><div class="line"><span class="keyword">var</span> firstNum=<span class="number">1</span>;</div><div class="line">    <span class="keyword">do</span>&#123;</div><div class="line">        <span class="keyword">var</span> secNum=<span class="number">1</span>;</div><div class="line">        <span class="keyword">do</span>&#123;</div><div class="line">            oDiv.innerHTML+=firstNum+<span class="string">'*'</span>+secNum+<span class="string">'='</span>+firstNum*secNum+<span class="string">'&amp;nbsp;&amp;nbsp;&amp;nbsp;'</span>;</div><div class="line">           secNum++</div><div class="line"></div><div class="line">        &#125;<span class="keyword">while</span>(secNum&lt;=firstNum);</div><div class="line">        oDiv.innerHTML+=<span class="string">'&lt;br/&gt;'</span>;</div><div class="line">        firstNum++</div><div class="line">    &#125;<span class="keyword">while</span> (firstNum&lt;<span class="number">10</span>)</div></pre></td></tr></table></figure>
+
+
+                
+            </div>
+
+            <!-- Comments -->
             
-                <div class="post-preview">
-    <a href="/2017/04/05/git/">
-        <h1 class="post-title archive">
-            git的使用
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2017-04-05
-    </p>
-</div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
             
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-</ul>
         </div>
     </div>
-</div>
-
-
+</article>
 
     <!-- Footer -->
     <hr />
